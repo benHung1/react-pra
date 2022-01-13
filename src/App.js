@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import SignUp from './pages/SignupPage';
 import Pricing from './pages/PricingPage';
-import Features from "./components/Features/Features";
 import Footer from "./components/Footer/Footer";
 
 
@@ -16,7 +15,7 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Switch>
-        <Route path='/' exact component={ Home } />
+        <Route path='/home' exact component={ Home } />
         <Route path='/signup' exact component={ SignUp } />
         <Route path='/pricing' exact component={ Pricing } />
       </Switch>

@@ -13,7 +13,7 @@ export const HeroVideo = styled.video`
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 2.9));
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 2.9));
 	top: 0;
 	position: absolute;
 	z-index: -1;

@@ -15,7 +15,7 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Switch>
-        <Route path='/home' exact component={ Home } />
+        <Route path='/' exact component={ Home } />
         <Route path='/signup' exact component={ SignUp } />
         <Route path='/pricing' exact component={ Pricing } />
       </Switch>

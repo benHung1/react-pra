@@ -1,6 +1,6 @@
 import React  from "react";
 import GlobalStyle from './globalStyles';
-import { HashRouterHashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
 
 import Home from "./pages/Home";

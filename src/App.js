@@ -1,7 +1,11 @@
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+
+
 import React  from "react";
 import GlobalStyle from './globalStyles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
+
 
 import Home from "./pages/Home";
 import SignUp from './pages/SignupPage';
@@ -11,6 +15,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
+    <BrowserRouter basename="/react-practice">
     <Router>
       <GlobalStyle />
       <Navbar />
@@ -20,7 +25,8 @@ function App() {
         <Route path='/pricing' exact component={ Pricing } />
       </Switch>
       <Footer />
-    </Router>
+    </Router>   
+    </BrowserRouter> 
   );
 }
 

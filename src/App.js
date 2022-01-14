@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 
 import React  from "react";
@@ -15,7 +14,6 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <BrowserRouter basename="/react-practice">
     <Router>
       <GlobalStyle />
       <Navbar />
@@ -26,7 +24,6 @@ function App() {
       </Switch>
       <Footer />
     </Router>   
-    </BrowserRouter> 
   );
 }
 

@@ -6,7 +6,7 @@ import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './H
 const Hero = () => {
   return (
     <HeroSection>
-      <HeroVideo src="https://player.vimeo.com/external/368460590.sd.mp4?s=acc6272ec264a62a8947cd8060d81d85a5bbfe01&profile_id=139&oauth2_token_id=57447761" autoPlay loop muted/>
+      <HeroVideo src="https://player.vimeo.com/external/540385516.sd.mp4?s=4225023e56f9587eba85269968e3cc1b76d8721f&profile_id=164&oauth2_token_id=57447761" autoPlay loop muted/>
       <Container>
         <MainHeading>Your Data Is Secure With Us</MainHeading>
         <HeroText>

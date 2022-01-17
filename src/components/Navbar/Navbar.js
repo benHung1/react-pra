@@ -47,7 +47,7 @@ const Navbar = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./assets/logo.png" alt="logo" />
+						<NavIcon src="https://i.imgur.com/Q0wr5bD.png" alt="logo" />
 						Delta
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
